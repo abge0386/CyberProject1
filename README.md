@@ -1,6 +1,6 @@
 # Cyber Project1
 # Github Fundamentals & Project 13
-![TODO: Update the path with the name of your diagram](Images/diagram_filename.png)
+!https://github.com/abge0386/CyberProject1/blob/main/Diagrams/Azure%20VM%20Diagram.png
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _____ file may be used to install only certain pieces of it, such as Filebeat.
 

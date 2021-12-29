@@ -27,6 +27,7 @@ Integrating an ELK server allows users to easily monitor the vulnerable VMs for 
 - Filebeat is a type of log monitoring software, that allows user to specify which logs to send. It works in the ELK stack, and ends up forwarding the collected log info to logstash or elasticsearch.
 - Metricbeat, although similar to filebeat, monitors and sends off metrics data.
 For more information on Filebeat and Metric beat, visit [ELK Stack Filebeat and Metric beat info](https://www.elastic.co/guide/en/beats/filebeat/current/filebeat-overview.html)
+
 The configuration details of each machine may be found below.
 _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
 

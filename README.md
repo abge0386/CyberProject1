@@ -45,15 +45,16 @@ Only the gateway/j-box machine can accept connections from the Internet. Access 
 -67.190.28.176
 
 Machines within the network can only be accessed by the j-box (10.0.0.4)
-- _TODO: Which machine did you allow to access your ELK VM? What was its IP address?_
+- Using an NSG, I allowed my personal IP (67.190.28.176), to be an allowed connection to my ELK VM.
 
 A summary of the access policies in place can be found in the table below.
 
-| Name     | Publicly Accessible | Allowed IP Addresses |
-|----------|---------------------|----------------------|
-| Jump Box | Yes/No              | 10.0.0.1 10.0.0.2    |
-|          |                     |                      |
-|          |                     |                      |
+| Name    | Publicly Accessible | Allowed IP Addresses       |
+|---------|---------------------|----------------------------|
+| Jumpbox | Yes                 | 67.190.28.176              |
+| Web-1   | No                  | 10.0.0.4 AND 10.0.0.9      |
+| Web-2   | No                  | 10.0.0.4 AND 10.0.0.8      |
+| ELK VM  | Yes                 | 10.0.0.4 AND 67.190.28.176 |
 
 ### Elk Configuration
 

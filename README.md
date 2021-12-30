@@ -74,11 +74,11 @@ This ELK server is configured to monitor the following machines:
 10.0.0.8 and 10.0.0.9
 
 We have installed the following Beats on these machines:
-- _TODO: Specify which Beats you successfully installed_
-
-These Beats allow us to collect the following information from each machine:
 - _filebeat_
 - _metricbeat_
+
+These Beats allow us to collect the following information from each machine:
+
 
 ### Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 

@@ -61,9 +61,9 @@ A summary of the access policies in place can be found in the table below.
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because it allows the desired stack programs to deploy on both DVWA1 and DVWA2 at the same time. It allows a quicker way to manage and deploy software onto servers/computers. 
 
 The playbook implements the following tasks:
-- _TODO: In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc._
-- ...
-- ...
+- _Install Docker_
+- _Set rules that allow ELK to use specific ports_
+- _Specifies which container to run ELK
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
@@ -86,7 +86,7 @@ In order to use the playbook, you will need to have an Ansible control node alre
 SSH into the control node and follow the steps below:
 - Copy the two filebeat and metric beat playbooks (should .yml files) file to the ansible directory (path should be ~etc/ansible).
 - Update the hosts file to include the IP addresses of the machines the beats will be deployed on.
-- Run the playbook, and navigate to ____ to check that the installation worked as expected.
+- Run the playbook, and navigate to the IP addres where ELK is running. It ia important to make sure this is done via port 5601, otherwise it will not work. to check that the installation worked as expected. It should look as follows: (ELK public IP):5601
 
 _TODO: Answer the following questions to fill in the blanks:_
 - _Which file is the playbook? Where do you copy it?_

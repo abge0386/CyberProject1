@@ -90,12 +90,12 @@ SSH into the control node and follow the steps below:
 
 _TODO: Answer the following questions to fill in the blanks:_
 - Which file is the playbook? Where do you copy it?_
-         -Depending on where/which directories you created to organize your files, the playbooks should be located in the ansible directory. However, there    should be 2 files per beat, one that is the actual playbook, and one to configure it. These must be in the same directory in order to run properly. The naming convention should be (beat)-playbook.yml 
+Depending on where/which directories you created to organize your files, the playbooks should be located in the ansible directory. However, there    should be 2 files per beat, one that is the actual playbook, and one to configure it. These must be in the same directory in order to run properly. The naming convention should be (beat)-playbook.yml 
 
 - _Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?_
-        -/etc/ansible/hosts
+/etc/ansible/hosts
 
 - _Which URL do you navigate to in order to check that the ELK server is running?
-        -Navigate to the ELK server's public IP via port 5601
+Navigate to the ELK server's public IP via port 5601
 
 _As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._

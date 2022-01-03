@@ -103,3 +103,14 @@ _TODO: Answer the following questions to fill in the blanks:_
 -Navigate to the ELK server's public IP via port 5601
 
 _As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
+
+1. Turn ELK container on, and make sure ELK VM is running (on Azure)
+2. SSH into jump box using <ssh username@IPaddress>
+3. On the terminal, run <docker container list -a>, to see if the container is running/on, if it is not on, run <sudo docker start> then <sudo docker attach (nameofcontainer)>
+4. Navigate to the Ansible directory <cd /etc/Ansible>
+5. Run <curl> + whichever beat you are installing. In this step you are pulling in the configuration file.
+6. Edit the file using nano
+7. Change the hosts IP address to your IP. This will have to be done in 2 sections- one for elasticsearch, and one for Kibana
+8. Create the playbook file
+8. Install the .deb file <dpkg -i>
+9. Once complete, run <ansible playbook filebeat-playbook.yml (or whatever naming convention used)>

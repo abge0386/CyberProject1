@@ -42,7 +42,7 @@ _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdow
 The machines on the internal network are not exposed to the public Internet. 
 
 Only the gateway/j-box machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
--67.190.28.176
+67.190.28.176
 
 Machines within the network can only be accessed by the j-box (10.0.0.4)
 - Using an NSG, I allowed my personal IP (67.190.28.176), to be an allowed connection to my ELK VM.

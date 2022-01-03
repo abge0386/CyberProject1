@@ -88,7 +88,7 @@ SSH into the control node and follow the steps below:
 - Update the hosts file to include the IP addresses of the machines the beats will be deployed on.
 - Run the playbook, and navigate to the IP addres where ELK is running. It is important to make sure this is done via port 5601, otherwise it will not work. to check that the installation worked as expected. It should look as follows: (ELK public IP):5601
 
-_TODO: Answer the following questions to fill in the blanks:_
+
 
 **Which file is the playbook? Where do you copy it?** 
 

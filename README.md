@@ -54,7 +54,7 @@ A summary of the access policies in place can be found in the table below.
 | Jumpbox | Yes                 | 67.190.28.176              |
 | Web-1   | No                  | 10.0.0.4 & 10.0.0.9        |
 | Web-2   | No                  | 10.0.0.4 & 10.0.0.8        |
-| ELK VM  |Yes                  | 10.1.0.4                   |
+| ELK VM  |Yes                  | 67.190.28.176              |
 
 ### Elk Configuration
 

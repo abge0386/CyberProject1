@@ -52,8 +52,8 @@ A summary of the access policies in place can be found in the table below.
 | Name    | Publicly Accessible | Allowed IP Addresses       |
 |---------|---------------------|----------------------------|
 | Jumpbox | Yes                 | 67.190.28.176              |
-| Web-1   | No                  | 10.0.0.4 & 10.0.0.9        |
-| Web-2   | No                  | 10.0.0.4 & 10.0.0.8        |
+| Web-1   | No                  | 10.0.0.4 & 10.0.0.8        |
+| Web-2   | No                  | 10.0.0.4 & 10.0.0.9        |
 | ELK VM  |Yes                  | 67.190.28.176/10.0.0.4     |
 
 ### Elk Configuration

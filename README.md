@@ -1,4 +1,4 @@
-# Cyber Project1
+# ELK Stack and Virtual Network Deployment
 ## Github Fundamentals & Project 13
 ![Azure VM Network Topology](https://github.com/abge0386/CyberProject1/blob/main/Images/Azure%20VM%20Diagram.png) 
 
